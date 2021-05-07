@@ -1,5 +1,7 @@
 import React from 'react';
 import './hading.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import Typical from 'react-typical'
 import Slied from '../../../img/back.jpg'
 import Slied2 from '../../../img/bg.jpg'
@@ -16,14 +18,15 @@ const Hading = () => {
                     <img src={me} alt="" className="my-pic" />
                 </div>
                 <div >
-                    <h2 style={{marginLeft:"90px",marginTop:'50px'}}> Hello,I'm</h2>
+                    <h2 style={{marginLeft:"90px", marginTop:'10px'}}> Hello,I'm</h2>
                       <div>  <Typical className="wel"
-                            steps={[' world!', 1000, " MEHEDI", 900]}
+                            steps={["Mehedi Hasen", 1000, 'Web Developer', 1000,'Web design', 1000]}
                             loop={Infinity}
                             wrapper="b"
                         />
                     </div>
-                    <a href={mehedi} className="button" download="mehediResumi.pdf">Resume</a>
+                     
+                    
 
                 </div>
             </div>
@@ -53,8 +56,15 @@ const Hading = () => {
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-                    <h1 style={{marginLeft:'200px', padding:'15pX'}}>Project</h1>
-                    <a href={mehedi} className="button">ProjectDetail</a>
+                     
+                       <div className='row justify-content-center'>
+                            <div className="col-md-3 col-sm-2 mt-4 justify-content-start"> 
+                            <a href={mehedi} className="button" download="mehediResumi.pdf"><FontAwesomeIcon icon={faDownload} style={{marginRight:'10px'}}/>Resume</a>   </div >
+                                           
+                            <div className="col-md-3 col-sm-2 mt-4 justify-content-end">  
+                    <a href='/Project' style={{}} className='button'>ProjectDetail</a></div>
+                        </div>
+                      
                 </div>
                 </div>
                 

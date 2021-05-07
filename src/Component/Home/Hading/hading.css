@@ -1,25 +1,27 @@
 *{
     color:white;
+    margin: 0;
+    padding: 0;
 }
 .my-pic{
     border-radius: 10px;
     width: 300px;
     margin-left: 50px;
-    height: 250px;
+    height: 300px;
 }
 .wel{
     color:rgb(12, 247, 235);
     font-size: 30px;
     text-align: center;
+    margin: 50px;
+    
 }
 .button {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px cyan solid;
-    padding: 5px 50px;
-    font-size: 25px;
-    margin: 20px;
-    
-    
+    padding: 5px 10px;
+    font-size: 20px;
+      
 }
 
 a{
