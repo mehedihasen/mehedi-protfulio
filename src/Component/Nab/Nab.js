@@ -28,9 +28,16 @@ const Nab = () => {
                             <li class="nav-item active">
                                 <a class="nav-link active" style={{ color: 'white', paddingRight: '100px' }} href="/about">About</a>
                             </li>
+                            
                             <li class="nav-item active">
-                                <a class="nav-link active" style={{ color: 'white', paddingRight: '100px' }} href="/blog">Blog</a>
+                                <a class="nav-link active" style={{ color: 'white', paddingRight: '100px' }} href="/contact">Contact</a>
+                            
                             </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link active" style={{ color: 'white', paddingRight: '100px' }} href="https://mehedisabuj4.medium.com/web-developer-8aad0fd4e178">Blog</a>
+                            </li>
+                            
                             <li class="nav-item active">
                             <img src={logo} alt="" className='logo'/>
                             </li>

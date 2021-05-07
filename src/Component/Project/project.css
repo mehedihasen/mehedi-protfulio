@@ -5,7 +5,7 @@
 }
 .cad{
     padding: 10px;
-    background-color: white;
     border-radius: 10px;
-    box-shadow: inset 1px 1px -1px rgb(71, 67, 90), inset -0.5px -0.5px 19px rgb(76, 67, 94);
+    border: 2px cyan solid;
+    margin:20px 10px;
 }

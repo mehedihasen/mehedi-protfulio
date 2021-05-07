@@ -10,11 +10,11 @@ import {
   Link
 } from "react-router-dom";
 import About from './Component/About/About';
-import Blog from './Component/Blog/Blog';
 import Project from './Component/Project/Project';
 
 import Footer from './Component/Footer/Footer';
 import Nab from './Component/Nab/Nab';
+import Contact from './Component/Contact/Contact';
 
 function App() {
   return (
@@ -33,8 +33,8 @@ function App() {
    <Route path="/Project">
      <Project />
    </Route>
-   <Route path="/Blog">
-     <Blog />
+   <Route path="/contact">
+     <Contact/>
    </Route>
     <Route path="/home">
     <Home></Home>

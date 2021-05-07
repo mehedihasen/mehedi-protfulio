@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <div className='row '>
             <div className="clo-md-5 d-flex justify-content-center ">
-            <a href='#footer' className="font"><FontAwesomeIcon icon={faGit} style={{}}/></a>
-            <a href='/footer' className="font"><FontAwesomeIcon icon={faLinkedinIn} style={{}}/></a>
+            <a href='https://github.com/mehedihasen' className="font"><FontAwesomeIcon icon={faGit} style={{}}/></a>
+            <a href='https://www.linkedin.com/in/md-mehedi-hasen-70b423185/' className="font"><FontAwesomeIcon icon={faLinkedinIn} style={{}}/></a>
             <a href='/footer' className="font"><FontAwesomeIcon icon={faFacebookF} style={{}}/></a>
             <a href='/footer' className="font"><FontAwesomeIcon icon={faTwitter} style={{}}/></a>
             </div>
