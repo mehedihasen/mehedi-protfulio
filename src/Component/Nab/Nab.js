@@ -2,7 +2,6 @@ import React from 'react';
 import "./nav.css"
 import logo from '../../img/mehedi.png'
 import mehedi from '../../img/Mehedi-hasen-resume.pdf'
-import { Link } from 'react-router-dom';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
