@@ -24,6 +24,8 @@ const Contact = () => {
       setStatus("Submit");
       let result = await response.json();
       alert(result.status);
+      
+
     };
     return (
       <div className='row container'>
