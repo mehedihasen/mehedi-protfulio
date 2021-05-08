@@ -1,9 +1,7 @@
 import React from 'react';
 import me from "../../img/mehedi.png"
 import './about.css'
-import Nab from '../Nab/Nab';
 import skilled from '../../img/Web.jpg'
-
 const About = () => {
     return (
 

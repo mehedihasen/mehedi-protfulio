@@ -3,8 +3,11 @@ import './hading.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import Typical from 'react-typical'
-import Slied from '../../../img/back.jpg'
-import Slied2 from '../../../img/bg.jpg'
+import Slied from '../../../img/electo.PNG'
+import Slied4 from '../../../img/serch.PNG'
+import Slied5 from '../../../img/tiger.PNG'
+import Slied6 from '../../../img/elec.PNG'
+import Slied2 from '../../../img/Traverl.PNG'
 import Slied3 from '../../../img/5 Home Page without login-1.png'
 import me from '../../../img/mehedi.png'
 import mehedi from "../../../img/Mehedi-hasen-resume.pdf"
@@ -43,6 +46,15 @@ const Hading = () => {
                         </div>
                         <div class="carousel-item">
                             <img src={Slied2} class="d-block w-100 imgsize" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src={Slied6} class="d-block w-100 imgsize" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src={Slied5} class="d-block w-100 imgsize" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src={Slied4} class="d-block w-100 imgsize" alt="..." />
                         </div>
                         <div class="carousel-item">
                             <img src={Slied3} class="d-block w-100 imgsize" alt="..." />

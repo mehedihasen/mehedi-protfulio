@@ -1,8 +1,8 @@
 .color {
-  background: linear-gradient(-45deg, #2e193b, #281e42, #09062e, #050230);
+  background: linear-gradient(-45deg, #050633, #050230, #050230, #050230);
  
 
-  animation: gradient 40s ease infinite;
+  animation: gradient 80s ease infinite;
 }  
 
 @keyframes gradient {
